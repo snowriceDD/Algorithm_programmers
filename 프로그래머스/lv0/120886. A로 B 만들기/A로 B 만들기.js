@@ -1,0 +1,1 @@
+const solution = (b, a) => b.split('').sort().join('') === a.split('').sort().join('') ? 1 : 0
