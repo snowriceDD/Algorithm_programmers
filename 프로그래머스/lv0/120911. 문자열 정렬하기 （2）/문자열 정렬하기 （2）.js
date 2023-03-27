@@ -1,0 +1,1 @@
+let solution = (m) => m.toLowerCase().split('').sort().join('')
