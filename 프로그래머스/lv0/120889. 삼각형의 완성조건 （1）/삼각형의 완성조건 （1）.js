@@ -1,0 +1,1 @@
+const solution = (sides) => sides.sort((a,b)=>b-a)[0] >= sides[1]+sides[2] ? 2 : 1
