@@ -1,0 +1,1 @@
+const solution = myString => myString.split('').map((e)=>e.toUpperCase()).join('')
