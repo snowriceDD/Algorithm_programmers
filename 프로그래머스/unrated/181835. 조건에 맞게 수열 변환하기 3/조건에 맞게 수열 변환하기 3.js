@@ -1,0 +1,1 @@
+const solution = (a, k) => (k%2===0) ? a.map((e)=> e+k) : a.map((e)=> e*k)
