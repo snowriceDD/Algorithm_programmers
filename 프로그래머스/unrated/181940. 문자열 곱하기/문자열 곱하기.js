@@ -1,0 +1,1 @@
+const solution = (s, k) => s.repeat(k)
