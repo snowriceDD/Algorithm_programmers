@@ -1,0 +1,1 @@
+const solution = m => m.toLowerCase();
