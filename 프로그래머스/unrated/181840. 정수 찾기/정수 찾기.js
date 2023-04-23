@@ -1,0 +1,1 @@
+const solution = (nl, n) => (nl.indexOf(n) !== -1) ? 1 : 0;
