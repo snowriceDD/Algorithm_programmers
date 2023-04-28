@@ -1,0 +1,1 @@
+const solution = (sl, ex) => [...sl].map((e) => e.indexOf(ex)).map((e, i) => e === -1 ? sl[i] : null).join('')
