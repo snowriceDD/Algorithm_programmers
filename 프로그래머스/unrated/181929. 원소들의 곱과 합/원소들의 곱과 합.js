@@ -1,0 +1,1 @@
+const solution = (nl, n) => nl.reduce((a, c) => a * c) < (nl.reduce((a, c) => a + c)**2) ? 1 : 0
