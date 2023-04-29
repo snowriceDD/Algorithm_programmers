@@ -1,0 +1,1 @@
+const solution = n => n.length > 10 ? n.reduce((a, c) => a + c) : n.reduce((a, c) => a * c)
