@@ -1,0 +1,1 @@
+const solution = n => n.indexOf((n.filter((e) => e < 0))[0])
