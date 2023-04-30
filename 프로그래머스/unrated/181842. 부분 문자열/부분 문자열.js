@@ -1,0 +1,1 @@
+const solution = (str1, str2) => str2.split(str1).length > 1 ? 1 : 0
