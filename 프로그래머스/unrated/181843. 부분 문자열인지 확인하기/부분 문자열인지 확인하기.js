@@ -1,0 +1,1 @@
+const solution = (ms, ta) => ms.split(ta).length > 1 ? 1 : 0
