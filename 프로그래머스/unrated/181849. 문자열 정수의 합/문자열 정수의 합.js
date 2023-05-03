@@ -1,0 +1,1 @@
+const solution = ns => (ns.split('')).map((e)=>parseInt(e)).reduce((a, c)=>a+c)
