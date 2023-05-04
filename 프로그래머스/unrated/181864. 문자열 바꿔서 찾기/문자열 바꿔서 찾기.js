@@ -1,0 +1,1 @@
+const solution = (ms, pa) => ms.split('').map(e=>e==="A" ? e = "B" : e = "A").join('').split(pa).length > 1 ? 1 : 0;
