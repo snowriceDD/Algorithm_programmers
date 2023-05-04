@@ -1,0 +1,1 @@
+const solution = ms => ms.split(' ')
