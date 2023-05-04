@@ -1,0 +1,1 @@
+const solution = (a, n) => a.length % 2 !== 0 ? a.map((e, i)=> i%2===0 ? e+n : e) : a.map((e, i)=> i%2!==0 ? e+n : e)
