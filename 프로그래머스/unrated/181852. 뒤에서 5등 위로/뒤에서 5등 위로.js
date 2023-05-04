@@ -1,0 +1,1 @@
+const solution = nl => nl.sort((a, b) => a - b).slice(5)
