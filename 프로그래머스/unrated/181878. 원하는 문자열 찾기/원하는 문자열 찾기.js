@@ -1,0 +1,1 @@
+const solution = (ms,pa) => ms.toUpperCase().split(pa.toUpperCase()).length > 1 ? 1 : 0
