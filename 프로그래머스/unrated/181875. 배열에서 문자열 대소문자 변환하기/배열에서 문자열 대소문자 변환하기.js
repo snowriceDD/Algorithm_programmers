@@ -1,0 +1,1 @@
+const solution = sA => sA.map((e, i)=> i % 2 !==0 ? e.toUpperCase() : e.toLowerCase())
