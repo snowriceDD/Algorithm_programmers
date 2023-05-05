@@ -1,0 +1,1 @@
+const solution = nl => nl[nl.length-1] > nl[nl.length-2] ? [...nl, nl[nl.length-1] - nl[nl.length-2]] : [...nl, nl[nl.length-1]*2]
