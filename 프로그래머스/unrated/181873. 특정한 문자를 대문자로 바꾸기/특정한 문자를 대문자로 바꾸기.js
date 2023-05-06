@@ -1,0 +1,1 @@
+const solution = (my, alp) => my.split('').map((e)=>e === alp ? e.toUpperCase() : e).join('')
