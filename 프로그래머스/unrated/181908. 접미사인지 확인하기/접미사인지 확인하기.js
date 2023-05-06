@@ -1,0 +1,1 @@
+const solution = (my, su) => my.split('').reverse().join('').split(su.split('').reverse().join(''))[0] === "" ? 1 : 0
