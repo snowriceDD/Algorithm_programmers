@@ -1,0 +1,1 @@
+const solution = (nl, n) => [nl.splice(n), nl.slice(0, n)].flat()
