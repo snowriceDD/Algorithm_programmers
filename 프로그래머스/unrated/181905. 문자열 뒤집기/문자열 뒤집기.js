@@ -1,0 +1,1 @@
+const solution = (ms, s, e) => [ms.slice(0, s) ,ms.split('').slice(s, e+1).reverse(), ms.slice(e+1)].flat().join('')
