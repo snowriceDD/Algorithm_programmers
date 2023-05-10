@@ -1,0 +1,1 @@
+const solution = (ms, os, s) => [...ms.slice(0, s), os, ...ms.slice(s+os.length)].join('')
