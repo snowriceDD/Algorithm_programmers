@@ -1,0 +1,1 @@
+const solution = sa => sa.map((e) => e.split('ad').length > 1 ? null : e).filter((e) => e !== null)
