@@ -1,0 +1,1 @@
+const solution = ms => ms.split('').map((e) => e < 'l' ? e = 'l' : e).join('')
