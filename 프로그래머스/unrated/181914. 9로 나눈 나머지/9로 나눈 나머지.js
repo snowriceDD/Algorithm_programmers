@@ -1,0 +1,1 @@
+const solution = nu => nu.split('').map(e=>Number(e)).reduce((a, c) => a + c) % 9
