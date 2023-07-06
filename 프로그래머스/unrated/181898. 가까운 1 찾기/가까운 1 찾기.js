@@ -1,0 +1,1 @@
+const solution = (arr, idx) => arr.slice(idx).findIndex(e => e === 1) !== -1 ? arr.slice(idx).findIndex(e => e === 1)+idx : -1
